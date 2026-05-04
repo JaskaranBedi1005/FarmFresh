@@ -8,12 +8,17 @@ const pool = new Pool({
 });
 
 async function initialize() {
+  if (!process.env.DATABASE_URL) {
+    console.error('❌ ERROR: DATABASE_URL is missing! Please set it in your Render environment variables.');
+    process.exit(1);
+  }
   try {
     const client = await pool.connect();
     console.log('✅ Supabase (PostgreSQL) connection pool created');
     client.release();
   } catch (err) {
     console.error('❌ Failed to connect to Supabase:', err.message);
+    console.error('Full Error:', err);
     process.exit(1);
   }
 }
