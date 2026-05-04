@@ -29,11 +29,11 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.kartavyaw.myexpoapp"
+      "package": "com.jaskaran.farmfresh"
     },
     "extra": {
       "eas": {
-        "projectId": "42f50f80-941b-4d69-97f5-4be31fb11f4e"
+        "projectId": "d1eb31f2-99c2-4329-8f6a-c875870a8b8e"
       }
     }
   }
