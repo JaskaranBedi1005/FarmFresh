@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-expo-app",
-    "slug": "my-expo-app",
+    "name": "FarmFresh",
+    "slug": "farmfresh",
     "version": "1.0.0",
     "web": {
       "favicon": "./assets/favicon.png"
@@ -30,6 +30,11 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.kartavyaw.myexpoapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "42f50f80-941b-4d69-97f5-4be31fb11f4e"
+      }
     }
   }
 }
