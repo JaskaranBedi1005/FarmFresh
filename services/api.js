@@ -10,7 +10,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // e.g. 'http://192.168.1.5:3001/api'
 // For Android emulator: 'http://10.0.2.2:3001/api'
 // For iOS simulator: 'http://localhost:3001/api'
-const BASE_URL = 'http://192.168.1.12:3001/api';
+// const BASE_URL = 'http://192.168.1.12:3001/api';
+const BASE_URL = 'https://farmfresh1.onrender.com/api';
 
 // ── Token helpers ─────────────────────────────────────────────────
 const TOKEN_KEY = 'farmfresh_token';
