@@ -35,8 +35,8 @@ app.use('/api/auth',     authRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/cart',     cartRoutes);
 app.use('/api/orders',   orderRoutes);
-app.use('/api/farmer',   farmerRoutes);  // Protected farmer dashboard routes
-app.use('/api/farmers',  farmersPublicRouter); // Public farmer listing
+app.use('/api/farmer',   farmerRoutes);  
+app.use('/api/farmers',  farmersPublicRouter); 
 
 // ─── 404 HANDLER ────────────────────────────────────────────────
 app.use((req, res) => {
